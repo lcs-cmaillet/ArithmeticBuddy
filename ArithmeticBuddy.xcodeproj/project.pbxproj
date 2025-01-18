@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		859CD7952D3C058D0053DE7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859CD7902D3C058D0053DE7E /* Preview Assets.xcassets */; };
+		859CD7962D3C058D0053DE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859CD7932D3C058D0053DE7E /* Assets.xcassets */; };
+		859CD7972D3C058D0053DE7E /* ArithmeticBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CD7922D3C058D0053DE7E /* ArithmeticBuddyApp.swift */; };
+		859CD7992D3C05B10053DE7E /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CD7982D3C05B10053DE7E /* AdditionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		859CD77E2D3C05320053DE7E /* ArithmeticBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859CD7902D3C058D0053DE7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		859CD7922D3C058D0053DE7E /* ArithmeticBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticBuddyApp.swift; sourceTree = "<group>"; };
+		859CD7932D3C058D0053DE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		859CD7982D3C05B10053DE7E /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		859CD7802D3C05320053DE7E /* ArithmeticBuddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArithmeticBuddy;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		859CD77B2D3C05320053DE7E /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		859CD7752D3C05320053DE7E = {
 			isa = PBXGroup;
 			children = (
-				859CD7802D3C05320053DE7E /* ArithmeticBuddy */,
+				859CD7942D3C058D0053DE7E /* ArithmeticBuddy */,
 				859CD77F2D3C05320053DE7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				859CD77E2D3C05320053DE7E /* ArithmeticBuddy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		859CD78F2D3C054D0053DE7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				859CD7982D3C05B10053DE7E /* AdditionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		859CD7912D3C058D0053DE7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				859CD7902D3C058D0053DE7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		859CD7942D3C058D0053DE7E /* ArithmeticBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				859CD7922D3C058D0053DE7E /* ArithmeticBuddyApp.swift */,
+				859CD78F2D3C054D0053DE7E /* Views */,
+				859CD7912D3C058D0053DE7E /* Preview Content */,
+				859CD7932D3C058D0053DE7E /* Assets.xcassets */,
+			);
+			path = ArithmeticBuddy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				859CD7802D3C05320053DE7E /* ArithmeticBuddy */,
 			);
 			name = ArithmeticBuddy;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859CD7952D3C058D0053DE7E /* Preview Assets.xcassets in Resources */,
+				859CD7962D3C058D0053DE7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859CD7992D3C05B10053DE7E /* AdditionView.swift in Sources */,
+				859CD7972D3C058D0053DE7E /* ArithmeticBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
